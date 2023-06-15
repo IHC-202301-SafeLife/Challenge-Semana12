@@ -1,3 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Estilos CSS del navbar */
+.navbar {
+  background-color: #1A1A1A;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px; /* Ajusta la altura deseada */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%; /* Establece una altura del 100% para ocupar todo el espacio vertical */
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2vw; /* Utiliza vw para establecer un tamaño relativo */
+  list-style: none;
+  height: 100%; /* Establece una altura del 100% para ocupar todo el espacio vertical */
+}
+
+.logo_navbar-img {
+  width: 20vw; /* Utiliza vw para establecer un tamaño relativo */
+  max-width: 200px; /* Establece un tamaño máximo */
+  min-width: 30px; /* Establece el tamaño mínimo deseado */
+
+}
+
+
+
+.menu ul li a {
+  color: #D06713;
+  text-decoration: none;
+  opacity: 0.8;
+  font-size: clamp(9px, 1.5vw, 12px)
+}
+
+.menu ul li a:hover {
+  opacity: 1;
+}
+
+.register-button {
+  color: #D06713;
+  font-weight: 1000;
+  font-family: 'Lato', sans-serif;
+  font-size: clamp(9px, 2.7vw, 12px);
+  padding: 6px 16px;
+  border: 1px solid #D06713; /* Agrega un color de borde */
+  background-color: transparent; /* Quita el fondo */
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #D06713;
+  color: #1A1A1A;
+}
 
 .font-bold {
     font-weight: 700;
