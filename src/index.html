@@ -1,88 +1,183 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SegurMap</title>
-    <link href="./style.css" rel="stylesheet"/>
-</head>
-<body>
-  <nav class="navbar" style="height: 80px;">
-    <div class="navbar-inner">
-      <div class="navbar-content" style="display: flex; align-items: center; justify-content: space-between;">
-        <!-- Logo -->
-        <div class="logo" style="margin-bottom: -60px; margin-left: 20px;">
-          <a href="#">
-            <img src="assets/Logo-Titulo.png" alt="Logo" class="logo_navbar-img " >
-          </a>
-        </div>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar" style="height: 80px">
+      <div class="navbar-inner">
+        <div
+          class="navbar-content"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <!-- Logo -->
+          <div class="logo" style="margin-bottom: -60px; margin-left: 20px">
+            <a href="#">
+              <img
+                src="assets/Logo-Titulo.png"
+                alt="Logo"
+                class="logo_navbar-img"
+              />
+            </a>
+          </div>
 
-        <!-- Menú -->
-        <div class="menu" style="margin-bottom: -50px; margin-right: 20px; ">
-          <ul style="display: flex; align-items: center;">
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Misión</a></li>
-            <li><a href="#">Iniciar sesión</a></li>
-            <li><button class="register-button">Registrarse</button></li>
-          </ul>
+          <!-- Menú -->
+          <div class="menu" style="margin-bottom: -50px; margin-right: 20px">
+            <ul style="display: flex; align-items: center">
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Misión</a></li>
+              <li><a href="#">Iniciar sesión</a></li>
+              <li><button class="register-button">Registrarse</button></li>
+            </ul>
+          </div>
         </div>
       </div>
+    </nav>
+
+    <div class="header-hero">
+      <div class="left-section">
+        <h1>Tu compañero</h1>
+        <h1>seguro en cada</h1>
+        <h1>viaje</h1>
+        <p>La aplicación de navegación que te alerta<br></br> sobre zonas de alto riesgo, te proporciona<br></br> rutas seguras o alternativas en tiempo real y<br></br> te mantiene seguro donde sea que estés</p>
+      </div>
+      <div class="right-section">
+        <div class="circle-image"></div>
+        <img src="./assets/hero.JPG" alt="Imagen" style="width: 500px; height: 300px;">
+      </div>
+    </div>   
+  
+    <div class="footer-hero">
+      <h1 class="footer-text">Seguridad al alcance de tu mano</h1>
     </div>
-  </nav>
 
-  <section id="features">
-    <div class="container">
-      <div class="img-zyro">
-        <img src="./assets/zyro-image (17) 1.png" alt="feature-img" class="feature-img" />
-      </div>
-     
+    <section id="features">
+      <div class="container">
+        <div class="img-zyro">
+          <img
+            src="./assets/feature-img.png"
+            alt="feature-img"
+            class="feature-img"
+          />
+        </div>
+
         <div class="container-features">
-            <div class="subContainer-features">
-                <img src="./assets/people.png" alt="img" class="img" />
-                <div class="container-text">
-                    <h3>Información confiable</h3>
-                    <p>Obtén información precisa y verificada sobre los incidentes de seguridad en tiempo real, para que puedas tomar decisiones informadas y sentirte seguro en cualquier lugar.</p>
-                </div>
+          <div class="subContainer-features">
+            <img src="./assets/people.png" alt="img" class="img" />
+            <div class="container-text">
+              <h3>Información confiable</h3>
+              <p>
+                Obtén información precisa y verificada sobre los incidentes de
+                seguridad en tiempo real, para que puedas tomar decisiones
+                informadas y sentirte seguro en cualquier lugar.
+              </p>
             </div>
-            <div class="subContainer-features">
-                <img src="./assets/fast.png" alt="img" class="img" />
-                <div class="container-text">
-                    <h3>Rápida y precisa</h3>
-                    <p>Recibe alertas inmediatas sobre incidentes en tu área, para que puedas tomar medidas de seguridad rápidamente y protegerte a ti mismo y a tus seres queridos.</p>
-                </div>
+          </div>
+          <div class="subContainer-features">
+            <img src="./assets/fast.png" alt="img" class="img" />
+            <div class="container-text">
+              <h3>Rápida y precisa</h3>
+              <p>
+                Recibe alertas inmediatas sobre incidentes en tu área, para que
+                puedas tomar medidas de seguridad rápidamente y protegerte a ti
+                mismo y a tus seres queridos.
+              </p>
             </div>
-            <div class="subContainer-features">
-                <img src="./assets/camera.png" alt="img" class="img" />
-                <div class="container-text">
-                    <h3>Revisa los incidentes</h3>
-                    <p>Revisa los incidentes recientes en tu área para entender mejor la situación de seguridad y tomar decisiones informadas sobre tus desplazamientos y actividades diarias.</p>
-                </div>
+          </div>
+          <div class="subContainer-features">
+            <img src="./assets/camera.png" alt="img" class="img" />
+            <div class="container-text">
+              <h3>Revisa los incidentes</h3>
+              <p>
+                Revisa los incidentes recientes en tu área para entender mejor
+                la situación de seguridad y tomar decisiones informadas sobre
+                tus desplazamientos y actividades diarias.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
+
+    <section id="customer-section">
+      <h2 class="section-title">Testimonios</h2>
+      <p class="text-4xl">Lo que nuestros usuarios piensan de nosotros</p>
+      <div class="customer-grid">
+        <div class="customer-card">
+          <div class="customer-profile">
+            <div class="quote-icon">
+              <span class="text-6xl">“</span>
+            </div>
+            <img src="./assets/AnaP.png" alt="AnaP profile picture" />
+          </div>
+          <div class="customer-text">
+            <p>
+              Con esta aplicación me siento mucho más segura al salir de casa,
+              especialmente cuando debo ir a lugares desconocidos. Ahora puedo
+              planificar mi ruta de manera más efectiva y evitar las zonas con
+              mayor índice delictivo.
+            </p>
+            <p class="customer-name">Ana P., San Isidro</p>
+          </div>
+        </div>
+        <div class="customer-card">
+          <div class="customer-profile">
+            <div class="quote-icon">
+              <span class="text-6xl">“</span>
+            </div>
+            <img src="./assets/JuanG.png" alt="JuanG profile picture" />
+          </div>
+          <div class="customer-text">
+            <p>
+              Revisar los incidentes en tiempo real me ha ayudado a evitar
+              situaciones peligrosas y estar más alerta al caminar por la
+              ciudad. Es una herramienta muy útil para cualquier persona que
+              quiera sentirse más segura al salir de casa.
+            </p>
+            <p class="customer-name">Juan G., Miraflores</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="bg-fondo-400">
-        <div class="flex justify-center items-center">
-            <h1 class="font-bold fg-letters-200">Mantente seguro</h1>
+      <div class="flex justify-center items-center">
+        <h1 class="font-bold fg-letters-200">Mantente seguro</h1>
+      </div>
+      <div class="flex justify-center items-center">
+        <h3 class="font-bold fg-letters-100">Descárgalo gratis</h3>
+      </div>
+
+      <div
+        class="box mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4"
+      >
+        <div class="imgPS">
+          <div class="hover-container">
+            <img src="./assets/Play-Store.png" alt="" />
+            <img
+              class="hover-img opacity-0 absolute top-0 left-0"
+              src="./assets/PlayStoreHover.png"
+              alt=""
+            />
           </div>
-          <div class="flex justify-center items-center">
-            <h3 class="font-bold fg-letters-100">Descárgalo gratis</h3>
+        </div>
+        <div class="imgAS">
+          <div class="hover-container">
+            <img src="./assets/App-Store.png" alt="" />
+            <img
+              class="hover-img opacity-0 absolute top-0 left-0"
+              src="./assets/AppStoreHover.png"
+              alt=""
+            />
           </div>
-        
-          <div class="box mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
-            <div class="imgPS">
-              <div class="hover-container">
-                <img src="./assets/Play-Store.png" alt="">
-                <img class="hover-img opacity-0 absolute top-0 left-0" src="./assets/PlayStoreHover.png" alt="">
-              </div>
-            </div>
-            <div class="imgAS">
-              <div class="hover-container">
-                <img src="./assets/App-Store.png" alt="">
-                <img class="hover-img opacity-0 absolute top-0 left-0" src="./assets/AppStoreHover.png" alt="">
-              </div>
-            </div>
-          </div>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
