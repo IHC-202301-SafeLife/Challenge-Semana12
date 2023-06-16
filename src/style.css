@@ -306,7 +306,43 @@ p {
 
 .customer-text {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   padding: 0 12px;
   margin-top: 1rem;
+}
+
+.header-hero {
+  background-color: #0c050c; /* Cambia el color de fondo aquí */
+  display: flex;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1;
+  color: #ffffff; /* Cambia el color del texto aquí */
+  padding-left: 50px;
+  font-size: 2.60rem;
+
+}
+
+.right-section {
+  flex: 1;
+  color:#D06713;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.footer-hero {
+  height: 100px;
+  background-color: #1a1a1a; /* Cambia el color de fondo del footer aquí */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #d06713; /* Cambia el color del texto del footer aquí */
+  font-family: "Lato", sans-serif; /* Cambia la tipografía del texto aquí */
 }
